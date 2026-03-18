@@ -1,0 +1,65 @@
+{
+  "app": {
+    "title": "Realtime Chat",
+    "headline": "Dein Raum, deine Unterhaltung"
+  },
+  "status": {
+    "idle": "Offline",
+    "connecting": "Verbindung wird aufgebaut…",
+    "connected": "Verbunden",
+    "reconnecting": "Verbindung wird wiederhergestellt…",
+    "error": "Verbindung unterbrochen"
+  },
+  "hint": {
+    "noSession": "Verbinde dich mit einem Chatraum, um loszulegen.",
+    "connecting": "Verbindung wird aufgebaut…",
+    "reconnecting": "Wir versuchen, dich wieder zu verbinden.",
+    "error": "Verbindung unterbrochen. Bitte versuche es erneut.",
+    "joined": "Im Raum \"{{room}}\" angemeldet als {{username}}."
+  },
+  "form": {
+    "username": "Benutzername",
+    "usernamePlaceholder": "z.B. PixelPanda",
+    "room": "Chatraum",
+    "roomPlaceholder": "z.B. general",
+    "connect": "Verbinden",
+    "update": "Aktualisieren",
+    "leave": "Verlassen"
+  },
+  "chat": {
+    "title": "Nachrichten",
+    "liveFeed": "Live-Feed für #{{room}}",
+    "messageCount": "{{count}} Beiträge",
+    "empty": "Noch keine Nachrichten. Sag als Erste*r hallo!",
+    "placeholder": "Schreib eine Nachricht…",
+    "placeholderDisabled": "Verbinde dich, um zu schreiben",
+    "send": "Senden"
+  },
+  "participants": {
+    "title": "Aktive Teilnehmer",
+    "empty": "Niemand ist aktiv",
+    "online": "online",
+    "lastActive": "zuletzt aktiv {{time}}"
+  },
+  "error": {
+    "form": {
+      "usernameRequired": "Benutzername ist erforderlich.",
+      "roomRequired": "Chatraum ist erforderlich.",
+      "usernameAndRoomRequired": "Bitte gib einen Benutzernamen und einen Raum an.",
+      "userIdRequired": "userId ist erforderlich.",
+      "messageTextRequired": "Nachrichtentext ist erforderlich."
+    },
+    "connection": {
+      "failed": "Verbindung fehlgeschlagen.",
+      "noActiveConnection": "Keine aktive Verbindung. Bitte verbinde dich erneut.",
+      "interrupted": "Verbindung unterbrochen. Bitte versuche es erneut.",
+      "sendFailed": "Nachricht konnte nicht gesendet werden."
+    },
+    "api": {
+      "joinFailed": "Beitritt fehlgeschlagen. Bitte erneut versuchen.",
+      "noUserReturned": "Backend hat keinen Benutzer für die Beitrittsanfrage zurückgegeben.",
+      "snapshotFailed": "Konnte Raumübersicht nicht laden.",
+      "leaveFailed": "Fehler beim Verlassen des Raums."
+    }
+  }
+}
